@@ -32,6 +32,8 @@ Stop Record: Ends the session and generates three executable scripts:
 
 **Script CCC**: Uses local image comparison for initial condition filtering and then calls the GPT-4o API for further decision-making. However, due to resolution loss from compressing screenshots to fit API input limits, it cannot make reliable judgments and has not been fully implemented.
 
+第二&第三阶段（初步框架搭建，但不能实际运行）：使用AI工具（Claude Desktop或Cursor）结合多个MCP工具记录人类在完成某项任务的一系列操作（需要分步向AI输入每一步操作的描述如选中了A1单元格，或者不需要向AI输入操作描述，由AI自己理解总结），使用者需要告诉AI我要开始执行任务了，开始记录我的操作，在记录完成后，AI输出任务执行流程，纠正流程以及添加新的判断条件后，AI工具可以对其他文件。或者在其他时间执行同样任务。脚本XXX，布置在Claude Desktop的试验脚本，但执行命令还是比较笨，不会变通。
+
 **Phase 2 & 3 (Framework Prototype Built, Not Yet Functional):**
 Using AI tools (such as Claude Desktop or Cursor) in combination with various MCP tools, the goal is to record a sequence of human operations involved in completing a task. This can be done either by having the user input a description of each step (e.g., “selected cell A1”) or by allowing the AI to observe and summarize the steps on its own. The user must inform the AI, “I’m starting the task now, begin recording my operations.” Once the task is completed, the AI outputs the execution workflow. After correcting the flow and adding new conditional logic, the AI tool should be capable of executing the same task either on different files or at a later time.
 

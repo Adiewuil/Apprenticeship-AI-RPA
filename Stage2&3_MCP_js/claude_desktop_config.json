@@ -1,0 +1,7 @@
+{"mcpServers": {
+    "windows11-intelligent-automation": {
+      "command": "node",
+      "args": ["D:\\MCP\\windows11-automation\\comprehensive-automation-recorder.js"]
+    }
+  }
+  }

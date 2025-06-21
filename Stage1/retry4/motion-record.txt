@@ -1,0 +1,3 @@
+Step 1: Mouse clicked at (711, 24) with Button.left
+Step 2: Special key pressed: Key.tab
+

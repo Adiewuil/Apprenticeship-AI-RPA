@@ -42,4 +42,5 @@ Using AI tools (such as Claude Desktop or Cursor) in combination with various MC
 **Script comprehensive-automation-recorder.js:**
 This experimental script is deployed within Claude Desktop, but the execution of commands is still quite rigid and lacks flexibility.
 
+Video introduction:：https://www.youtube.com/watch?v=9qtIHB9wsZI
 For business collaborations, please contact  lwd97@stanford.edu
